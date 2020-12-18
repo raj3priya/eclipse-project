@@ -22,6 +22,7 @@ public class MyResource {
     public String getIt() {
     	System.out.println("Making change for git testing");
     	System.out.println("Chnage after pushing");
+    	System.out.println("Change from user1");
         return "Got it!";
     }
 }
