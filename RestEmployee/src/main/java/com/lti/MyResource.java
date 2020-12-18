@@ -20,6 +20,7 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
+    	System.out.println("Making change for git testing");
         return "Got it!";
     }
 }
