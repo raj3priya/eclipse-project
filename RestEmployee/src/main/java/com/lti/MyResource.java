@@ -21,6 +21,7 @@ public class MyResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
     	System.out.println("Making change for git testing");
+    	System.out.println("Chnage after pushing");
         return "Got it!";
     }
 }
